@@ -87,9 +87,9 @@ namespace MyTranscript
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label1.Location = new System.Drawing.Point(264, 9);
+            this.label1.Location = new System.Drawing.Point(287, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(258, 32);
+            this.label1.Size = new System.Drawing.Size(463, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "My university name";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -99,9 +99,9 @@ namespace MyTranscript
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label2.Location = new System.Drawing.Point(264, 54);
+            this.label2.Location = new System.Drawing.Point(303, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(258, 32);
+            this.label2.Size = new System.Drawing.Size(463, 32);
             this.label2.TabIndex = 1;
             this.label2.Text = "My faculty name";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -120,9 +120,9 @@ namespace MyTranscript
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 348);
+            this.groupBox1.Location = new System.Drawing.Point(12, 381);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(776, 167);
+            this.groupBox1.Size = new System.Drawing.Size(981, 167);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add new course";
@@ -230,7 +230,7 @@ namespace MyTranscript
             this.tabpage1.Location = new System.Drawing.Point(12, 89);
             this.tabpage1.Name = "tabpage1";
             this.tabpage1.SelectedIndex = 0;
-            this.tabpage1.Size = new System.Drawing.Size(776, 253);
+            this.tabpage1.Size = new System.Drawing.Size(981, 286);
             this.tabpage1.TabIndex = 4;
             // 
             // tabPageYear1Sem1
@@ -338,7 +338,7 @@ namespace MyTranscript
             this.tabPageYear4Sem2.Location = new System.Drawing.Point(4, 25);
             this.tabPageYear4Sem2.Name = "tabPageYear4Sem2";
             this.tabPageYear4Sem2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageYear4Sem2.Size = new System.Drawing.Size(768, 224);
+            this.tabPageYear4Sem2.Size = new System.Drawing.Size(973, 257);
             this.tabPageYear4Sem2.TabIndex = 8;
             this.tabPageYear4Sem2.Text = "Year 4 Sem2";
             this.tabPageYear4Sem2.UseVisualStyleBackColor = true;
@@ -417,14 +417,14 @@ namespace MyTranscript
             this.dataGridViewY4S2.Name = "dataGridViewY4S2";
             this.dataGridViewY4S2.RowHeadersWidth = 51;
             this.dataGridViewY4S2.RowTemplate.Height = 24;
-            this.dataGridViewY4S2.Size = new System.Drawing.Size(762, 218);
+            this.dataGridViewY4S2.Size = new System.Drawing.Size(967, 251);
             this.dataGridViewY4S2.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 527);
+            this.ClientSize = new System.Drawing.Size(1005, 560);
             this.Controls.Add(this.tabpage1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
