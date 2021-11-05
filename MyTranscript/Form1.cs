@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -238,14 +239,29 @@ namespace MyTranscript
                 }
             }
 
-            string filename = "mygrade.csv";
+            string filename = ".csv";
             WriteToFile(filename, sb);
         }
 
         private void WriteToFile(string filename, StringBuilder sb)
         {
-            Console.WriteLine(sb.ToString());
-            System.IO.File.WriteAllText(filename, sb.ToString());
+            Stream myStream;
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+
+            saveFileDialog1.Filter = "csv files (*.csv)|*.csv|All files (*.csv*)|*.csv*";
+            saveFileDialog1.FilterIndex = 2;
+            saveFileDialog1.RestoreDirectory = true;
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string filepath = saveFileDialog1.FileName + filename;
+                if ((myStream = saveFileDialog1.OpenFile()) != null)
+                {
+                    Console.WriteLine(sb.ToString());
+                    System.IO.File.WriteAllText(filepath, sb.ToString());
+                    myStream.Close();
+                }
+            }
         }
 
     }
